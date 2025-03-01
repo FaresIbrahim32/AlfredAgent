@@ -10,8 +10,8 @@
     "model": {
         "class": "HfApiModel",
         "data": {
-            "last_input_token_count": 3527,
-            "last_output_token_count": 83,
+            "last_input_token_count": 6250,
+            "last_output_token_count": 529,
             "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
             "provider": null
         }
@@ -45,20 +45,20 @@
     "requirements": [
         "requests",
         "duckduckgo_search",
-        "markdownify",
-        "smolagents"
+        "smolagents",
+        "markdownify"
     ],
     "authorized_imports": [
-        "queue",
-        "collections",
-        "time",
-        "statistics",
-        "stat",
-        "math",
-        "unicodedata",
-        "random",
         "itertools",
+        "stat",
+        "collections",
+        "unicodedata",
+        "math",
+        "random",
         "re",
-        "datetime"
+        "time",
+        "datetime",
+        "queue",
+        "statistics"
     ]
 }
